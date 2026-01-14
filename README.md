@@ -2,7 +2,7 @@
 
 A full-stack serverless application that performs real-time sentiment analysis using Generative AI. Built with AWS Lambda, Amazon Bedrock (Nova Micro), and API Gateway.
 
-**Live Demo:** [Link to your CloudFront URL]
+**Live Demo:** https://d3p9xzountf7p0.cloudfront.net/
 
 ## 🏗 Architecture
 **Frontend (S3 + CloudFront) → API Gateway → Lambda → Amazon Bedrock**
