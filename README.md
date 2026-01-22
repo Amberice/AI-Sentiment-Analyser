@@ -30,3 +30,20 @@ A full-stack serverless application that performs real-time sentiment analysis u
   └── index.html           # Client-side UI connecting to API Gateway
 /lambda
   └── lambda_function.py   # Python handler for Bedrock interaction
+/qr_code_generator.py       # QR code generator script
+
+## 📱 Utility: QR Code Generator
+Included in this repo is a simple Python CLI tool to generate QR codes (e.g., for sharing the website link).
+
+**How to Run Locally:**
+```bash
+# 1. Create environment
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+
+# 2. Install dependencies
+pip install "qrcode[pil]"
+
+# 3. Run the script
+python qr_code_generator.py
